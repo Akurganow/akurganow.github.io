@@ -11,5 +11,5 @@ module.exports = {
       "ignorePseudoClasses": ["input-placeholder", "global"]
     }]
   },
-  ignoreFiles: ["node_modules/**", "build/**", "**/*.js"]
+  ignoreFiles: ["node_modules/**", "dist/**", "**/*.js"]
 }
