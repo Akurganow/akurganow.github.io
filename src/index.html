@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Alexander Kurganov Curriculum Vitæ</title>
 
-  <link rel="stylesheet" href="./screen.css" media="screen">
-  <link rel="stylesheet" href="./print.css" media="print">
+  <link rel="stylesheet" href="./common.css" media="all">
+
+  <link rel="preload" as="style" href="./screen.css" media="screen" onload="this.rel='stylesheet'">
+  <link rel="preload" as="style" href="./print.css" media="print" onload="this.rel='stylesheet'">
 
   <meta name="msapplication-TileColor" content="#4600ff">
   <meta name="msapplication-config" content="./browserconfig.xml">
@@ -44,7 +46,13 @@
 </head>
 <body>
   <header class="header">
-    <img class="header-image" alt="Фотография Александра Курганова" src="https://ucarecdn.com/d8d2f42a-88cd-4dcd-a0e4-49f66622b54d/-/resize/128x/-/format/auto/" srcset="https://ucarecdn.com/d8d2f42a-88cd-4dcd-a0e4-49f66622b54d/-/resize/256x/-/format/auto/ 2x">
+    <img
+      class="lozad header-image"
+      alt="Фотография Александра Курганова"
+      width="128"
+      height="128"
+      src="https://ucarecdn.com/d8d2f42a-88cd-4dcd-a0e4-49f66622b54d/-/resize/128x/-/format/auto/"
+      srcset="https://ucarecdn.com/d8d2f42a-88cd-4dcd-a0e4-49f66622b54d/-/resize/256x/-/format/auto/ 2x">
     <div class="header-info">
       <h1 class="header-heading">
         Александр Курганов
