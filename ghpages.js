@@ -8,8 +8,15 @@ ghpages.publish(
   {
     branch: 'master',
     message: 'Updates [ci skip]',
+    dotfiles: true,
   },
-  () => {
+  (err) => {
+    if (err) {
+      console.error(err)
+
+      return
+    }
+
     console.info('Deploy finished')
   }
 )

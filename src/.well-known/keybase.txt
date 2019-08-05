@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/akurganow
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://akurganow.github.io
+  * I am akurganow (https://keybase.io/akurganow) on keybase.
+  * I have a public key with fingerprint EAC9 F021 B881 9CEF 576B  182B D215 37C0 ABDF 1A9F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010195f925322296caac9b998297ededdb99f7622d385e48d4abca97a7c8b36a131f0a",
+      "fingerprint": "eac9f021b8819cef576b182bd21537c0abdf1a9f",
+      "host": "keybase.io",
+      "key_id": "d21537c0abdf1a9f",
+      "kid": "010195f925322296caac9b998297ededdb99f7622d385e48d4abca97a7c8b36a131f0a",
+      "uid": "43dc65a08f69df2ebcb27becde588319",
+      "username": "akurganow"
+    },
+    "service": {
+      "hostname": "akurganow.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1565043729,
+  "expire_in": 157680000,
+  "prev": "d2fda446780829ca65a3cd800bb52aa87e9f5cae23c9d264c380673d828c22c5",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIqAnicrVJrSBRRGN3tRRlZqT3wR8QkGLbJzJ2dmTvbg0ULjIiKsiLN7b5mnbSZ
+bXfWrEUoNQx6wGYPoZcR0cOMHhBsD8nULIsipKAwoqJ+BFlkFAZBd6z+RD+7f+69
+H+ece87hdo4b7knzTl7VNK7y/YeE9357c9yzruj8xISAbbpFCCSECja0sUrKYk6o
+wqRCQBAlUdIVQweKDADQVYIQ0bGuQ6BrjDJK+dnQVACoDBXmh9SPMEG6hjQCsawi
+SZYMEQk+wTCtMItGoqblcFnGVQwRSBhCSSfMUDQVSxBgCiRF1oiIMDUkpBucWG7H
+XAY3h1GM5Zs2n/FLaMjeP/D/2Xd8SM4vU6IqSISGqlMDMEww0DAjlCkQypLuAmMs
+aqGNjKNRRTwaRpa9WajxCXxcZRLmNutG+RuSHzad8jj+lSsStR2b2JUcUO44kVjA
+FXC2RFzGZoZDv7VC2LQo75Mzqlg0ZtqWEJA4kjimKy4pqiL6ZQ3oPoFVR8woC5ku
+gpcMRb7cd1jVUHsGRX6/qkGR90IQTygTyjEYKwAhqDHdUAhiQCY6BaqfyFBUNZlC
+AAkARBHcdJssm2ur3CcKc82YGbaQE48yoeb2rdIRHm+aZ9TIYe5H86SNmfDn+x3o
+Gu3ZIfWe3sj2Hi4+2TJ3sGFm3sCiu1tLkvOKgit6uvdkl1QPnjuU8aRzfGv+835p
+4UDbjZyC1cnaptTy85dzr3+/uc/bvT2tZX9Ws/fj4/TOwjWFDX0tkxJZY6uv1rCO
+B++Qb//dV08rwx2HD8zrOJrsXrn0Ym7vrJ4FL/LuHOpvXlZ47N7Lr/0DcqDu4/Sy
+K/U/UqnjbdnJjBNHsj+9njL74LbaZ0t2NhZMI5c+n5765l56ssSCc07Vtz8av1hv
+6L7WsKbRyN2QCPR10brkt9ryjlSwvevcmfergxfiZdl54eIPX4QyTQr63to5Z86u
+3d2ctz4+oqmga1dfkDycPyOzNJWZ3kp/AqTjR/k=
+=7dYu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/akurganow
+
+==================================================================
