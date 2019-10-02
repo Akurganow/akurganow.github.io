@@ -20,6 +20,8 @@
   --color: #000;
   --color-link: #2f588e;
   --background-color: #fff;
+  
+  color-sheme: light dark;
 
   @media (max-width: 784px) {
     --side-padding: 1.5rem;
