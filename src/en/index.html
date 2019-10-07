@@ -6,10 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Alexander Kurganov Curriculum Vitæ</title>
 
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../common.css" media="all">
+
+  <link rel="preload" as="style" href="../screen.css" media="screen" onload="this.rel='stylesheet'">
+  <link rel="preload" as="style" href="../print.css" media="print" onload="this.rel='stylesheet'">
 
   <meta name="msapplication-TileColor" content="#4600ff">
-  <meta name="msapplication-config" content="./browserconfig.xml">
+  <meta name="msapplication-config" content="../browserconfig.xml">
   <meta name="theme-color" content="#4600ff">
   <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
@@ -27,9 +30,9 @@
   <meta property="og:image:width" content="1158">
   <meta property="og:image:height" content="1158">
   <meta property="og:title" content="Alexander Kurganov Curriculum Vitæ">
-  <meta property="og:url" content="Alexander Kurganov Curriculum Vitæ">
+  <meta property="og:url" content="https://akurganow.github.io/">
   <meta property="og:description" content="UX Engineer, Senior JavaScript Developer">
-  <meta property="og:image" content="https://ucarecdn.com/948457fd-8ead-40c6-a9ac-0f686d7b23bf/-/format/auto/og-image.jpg">
+  <meta property="og:image" content="https://ucarecdn.com/d8d2f42a-88cd-4dcd-a0e4-49f66622b54d/-/format/auto/og-image.jpg">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@akurganow">
@@ -39,30 +42,37 @@
   <meta itemprop="name" content="Alexander Kurganov Curriculum Vitæ">
   <meta itemprop="description" content="UX Engineer, Senior JavaScript Developer">
   <meta name="description" content="UX Engineer, Senior JavaScript Developer">
-  <meta itemprop="image" content="https://ucarecdn.com/948457fd-8ead-40c6-a9ac-0f686d7b23bf/-/format/auto/og-image.jpg">
+  <meta itemprop="image" content="https://ucarecdn.com/d8d2f42a-88cd-4dcd-a0e4-49f66622b54d/-/format/auto/og-image.jpg">
 </head>
 <body>
   <header class="header">
-    <img class="header-image" alt="Фотография Александра Курганова" src="https://ucarecdn.com/948457fd-8ead-40c6-a9ac-0f686d7b23bf/-/resize/128x/-/format/auto/" srcset="https://ucarecdn.com/948457fd-8ead-40c6-a9ac-0f686d7b23bf/-/resize/256x/-/format/auto/ 2x">
+    <img
+      class="lozad header-image"
+      alt="Фотография Александра Курганова"
+      width="128"
+      height="128"
+      src="https://ucarecdn.com/d8d2f42a-88cd-4dcd-a0e4-49f66622b54d/-/resize/128x/-/format/auto/"
+      srcset="https://ucarecdn.com/d8d2f42a-88cd-4dcd-a0e4-49f66622b54d/-/resize/256x/-/format/auto/ 2x">
     <div class="header-info">
       <h1 class="header-heading">
         Alexander Kurganov
         <small class="header-subheading">UX Engineer, Senior JavaScript Developer</small>
       </h1>
     </div>
+    <a class="lang" href="../index.html" />🇷🇺</a>
   </header>
 
   <main>
     <section class="section">
-      <h2 class="section-heading">Personal data</h2>
+      <h2 class="section-heading">Personal info</h2>
       <table class="section-table">
         <tbody>
           <tr>
             <td>Full name:</td>
-            <td>Kurganov Alexander Michailovich</td>
+            <td>Alexander Kurganov</td>
           </tr>
           <tr>
-            <td>DOB:</td>
+            <td>Birth date:</td>
             <td>28.02.1986</td>
           </tr>
           <tr>
@@ -70,10 +80,10 @@
             <td><a href="mailto:me@akurganow.ru">me@akurganow.ru</a></td>
           </tr>
           <tr>
-            <td>Knowledge of languages:</td>
+            <td>Languages:</td>
             <td>
               Russian (native),
-              English (upper intermediate)
+              English (intermediate)
             </td>
           </tr>
         </tbody>
@@ -83,23 +93,23 @@
     <section class="section">
       <h2 class="section-heading">Bio</h2>
       <p class="section-body">
-        Занимаюсь веб разработкой с 2011 года, с 2013 на фултайме в компаниях,
-        не люблю аутсорс, идеальным считаю работать над продуктом которым сам пользуешься.
-        Дизайн без данных считаю пустой тратой времени, обожаю когда данные подсказывают очевидные изменения в интерфейсе
-        и после изменений гипотеза подтверждается и ты видишь как пользователи делают то что ты задумал, это чувство лучше чем секс.
-        Дизайном стал интересоваться тогда же, когда и программированием, считаю их не отделимыми друг от друга,
+        Занимаюсь веб разработкой с&nbsp;2011&nbsp;года, с&nbsp;2013&nbsp;на фултайме в&nbsp;компаниях,
+        не&nbsp;люблю аутсорс, идеальным считаю работать над продуктом которым сам пользуешься.
+        Дизайн без данных считаю пустой тратой времени, обожаю когда данные подсказывают очевидные изменения в&nbsp;интерфейсе
+        и&nbsp;после изменений гипотеза подтверждается и&nbsp;ты&nbsp;видишь как пользователи делают то&nbsp;что ты&nbsp;задумал, это чувство лучше чем секс.
+        Дизайном стал интересоваться тогда&nbsp;же, когда и&nbsp;программированием, считаю их&nbsp;не&nbsp;отделимыми друг от&nbsp;друга,
         дизайн кода тоже дизайн.<br>
-        Считаю, что если программист пишет без багов, то он слишком много дорогого времени тратит на тестирование,
-        программист обязан тестировать свой код, но это не должно занимать больше времени чем проектирование и разработка.<br>
-        Конференции и митапы разлюбил, возможно из-за того, что долго был организатором питерского сообщества <a href="https://spb-frontend.ru/">spb.frontend()</a>,
-        сейчас в сообществе занимаюсь только поддержкой сайта на Gatsby.js и в свободное время пишу приложение для сообщества на React Native.
-        Был ведущим подкаста сообщества spb.frontend(), сейчас с подругой создаем свой подкаст не про программирование <a href="https://ponaehali.fireside.fm">«Понаехали»</a><br>
-        В свободное время катаю на сноуборде или на картодроме.
+        Считаю, что если программист пишет без багов, то&nbsp;он&nbsp;слишком много дорогого времени тратит на&nbsp;тестирование,
+        программист обязан тестировать свой код, но&nbsp;это не&nbsp;должно занимать больше времени чем проектирование и&nbsp;разработка.<br>
+        Конференции и&nbsp;митапы разлюбил, возможно из-за того, что долго был организатором питерского сообщества <a href="https://spb-frontend.ru/">spb.frontend()</a>,
+        сейчас в&nbsp;сообществе занимаюсь только поддержкой сайта на&nbsp;Gatsby.js и&nbsp;в&nbsp;свободное время пишу приложение для сообщества на&nbsp;React Native.
+        Был ведущим подкаста сообщества spb.frontend(), сейчас с&nbsp;подругой создаем свой подкаст не&nbsp;про программирование <a href="https://ponaehali.fireside.fm">&laquo;Понаехали&raquo;</a> <br>
+        В&nbsp;свободное время катаю на&nbsp;сноуборде или на&nbsp;картодроме.
       </p>
     </section>
 
     <section class="section">
-      <h2 class="section-heading">Work experience</h2>
+      <h2 class="section-heading">Опыт работы</h2>
       <ul class="section-list">
         <li>
           <h3 class="list-heading">
@@ -139,7 +149,7 @@
         <li>
           <h3 class="list-heading">
             Senior JavaScript Developer
-            <small class="list-subheading"><a href="//uploadcare.com">Uploadcare</a></small>
+            <small class="list-subheading">в <a href="//uploadcare.com">Uploadcare</a></small>
           </h3>
           <div class="list-dates">с августа 2016 по март 2018</div>
           <p>
@@ -156,7 +166,7 @@
         <li>
           <h3 class="list-heading">
             Senior JavaScript Developer
-            <small class="list-subheading"><a href="//mkechinov.ru">Студии веб-разработок Михаила Кечинова</a></small>
+            <small class="list-subheading">в <a href="//mkechinov.ru">Студии веб-разработок Михаила Кечинова</a></small>
           </h3>
           <div class="list-dates">с августа 2015 по август 2016</div>
           <p>
@@ -175,7 +185,7 @@
         <li>
           <h3 class="list-heading">
             JavaScript Developer
-            <small class="list-subheading"><a href="//amplifr.com">Amplifr</a></small>
+            <small class="list-subheading">в <a href="//amplifr.com">Amplifr</a></small>
           </h3>
           <div class="list-dates">с июля 2013 по август 2015</div>
           <p>
@@ -201,7 +211,7 @@
         <li>
           <h3 class="list-heading">
             Web Developer
-            <small class="list-subheading">Freelance</a></small>
+            <small class="list-subheading">Фриланс</a></small>
           </h3>
           <div class="list-dates">с сентября 2011 по июль 2013</div>
           <p>
