@@ -5,7 +5,7 @@ module.exports = {
     "color-hex-case": "lower",
     "no-descending-specificity": null,
     "property-no-unknown": [true, {
-      "ignoreProperties": ["font-smoothing", "composes"]
+      "ignoreProperties": ["font-smoothing", "composes", "color-scheme"]
     }],
     "selector-pseudo-class-no-unknown": [true, {
       "ignorePseudoClasses": ["input-placeholder", "global"]
