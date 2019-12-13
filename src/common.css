@@ -443,3 +443,7 @@ a:active {
   text-decoration: none;
   align-self: flex-start;
 }
+
+.footer {
+  padding-top: var(--element-h-padding);
+}
