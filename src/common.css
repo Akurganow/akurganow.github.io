@@ -72,8 +72,8 @@ h1 {
   padding-right: 0;
   padding-bottom: calc(0.40625rem - 1px);
   padding-left: 0;
-  border-bottom: 1px solid;
   border-color: var(--border-color);
+  border-bottom: 1px solid;
   text-rendering: optimizeLegibility;
 }
 
@@ -88,8 +88,8 @@ h2 {
   padding-right: 0;
   padding-bottom: calc(0.40625rem - 1px);
   padding-left: 0;
-  border-bottom: 1px solid;
   border-color: var(--border-color);
+  border-bottom: 1px solid;
   text-rendering: optimizeLegibility;
 }
 
@@ -356,8 +356,8 @@ th {
   padding-bottom: calc(0.8125rem - 1px);
   padding-left: 1.08333rem;
   text-align: left;
-  border-bottom: 1px solid;
   border-color: var(--border-color);
+  border-bottom: 1px solid;
   font-feature-settings: tnum;
 }
 
@@ -445,5 +445,13 @@ a:active {
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
   padding-top: var(--element-h-padding);
+  opacity: 0.5;
+  transition: opacity 150ms ease-out;
+
+  &:hover {
+    opacity: 1;
+  }
 }
