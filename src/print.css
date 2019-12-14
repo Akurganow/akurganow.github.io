@@ -23,3 +23,7 @@
   --background-color: #fff;
   --bd-radius: 4px;
 }
+
+.print-visible {
+  display: inline;
+}
