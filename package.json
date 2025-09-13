@@ -7,9 +7,9 @@
     "test": "jest",
     "start": "parcel src/index.html",
     "build:config": "cp src/_config.yml dist/_config.yml",
-    "build:parcel": "parcel build src/index.html src/.well-known/**/* --no-source-maps",
+    "build:parcel": "parcel build src/index.html src/.well-known/**/* --no-source-maps --no-cache",
     "build": "npm-run-all build:parcel build:config",
-    "clear": "rm -rf dist",
+    "clear": "rm -rf dist .cache",
     "gh-pages": "node ghpages.js",
     "deploy": "npm-run-all clear build gh-pages"
   },
