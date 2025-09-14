@@ -1,6 +1,84 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
-  ]
+    "config:recommended",
+    ":enableRenovate",
+    ":dependencyDashboard",
+    ":semanticCommits",
+    ":separateMajorReleases",
+    ":separateMultipleMajorReleases"
+  ],
+  "schedule": [
+    "after 2am and before 4am on monday"
+  ],
+  "timezone": "Europe/Moscow",
+  "rangeStrategy": "bump",
+  "commitMessagePrefix": "⬆️",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": "to {{newVersion}}",
+  "prTitle": "⬆️ Update {{depName}} to {{newVersion}}",
+  "labels": [
+    "dependencies",
+    "renovate"
+  ],
+  "assignees": [
+    "akurganow"
+  ],
+  "reviewers": [
+    "akurganow"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "labels": [
+        "dependencies",
+        "dev-dependencies",
+        "renovate"
+      ]
+    },
+    {
+      "matchPackagePatterns": ["^eslint", "^prettier", "^stylelint"],
+      "groupName": "linting packages",
+      "labels": [
+        "dependencies",
+        "linting",
+        "renovate"
+      ]
+    },
+    {
+      "matchPackagePatterns": ["^@babel/"],
+      "groupName": "babel packages",
+      "labels": [
+        "dependencies",
+        "babel",
+        "renovate"
+      ]
+    },
+    {
+      "matchPackagePatterns": ["^parcel"],
+      "groupName": "parcel packages",
+      "labels": [
+        "dependencies",
+        "build-tools",
+        "renovate"
+      ]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true,
+      "automergeType": "pr"
+    }
+  ],
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 2,
+  "vulnerabilityAlerts": {
+    "labels": [
+      "security",
+      "renovate"
+    ],
+    "assignees": [
+      "akurganow"
+    ]
+  }
 }
