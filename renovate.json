@@ -11,7 +11,7 @@
   "schedule": [
     "after 2am and before 4am on monday"
   ],
-  "timezone": "Europe/Moscow",
+  "timezone": "Europe/Madrid",
   "rangeStrategy": "bump",
   "commitMessagePrefix": "⬆️",
   "commitMessageTopic": "{{depName}}",
