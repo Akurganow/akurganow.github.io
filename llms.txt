@@ -15,5 +15,6 @@
 
 ## Profiles
 
+- [LinkedIn](https://www.linkedin.com/in/akurganow): professional profile
 - [GitHub](https://github.com/Akurganow): open-source projects and activity
 - [CodePen](https://codepen.io/Akurganow): frontend experiments

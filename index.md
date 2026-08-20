@@ -56,7 +56,8 @@ programming. Outside of work: snowboarding and go-karting.
 
 ## Links
 
-- [GitHub](https://github.com/Akurganow)<span class="print-only"> — https://github.com/Akurganow</span>
+- <a rel="me" href="https://www.linkedin.com/in/akurganow">LinkedIn</a><span class="print-only"> — https://www.linkedin.com/in/akurganow</span>
+- <a rel="me" href="https://github.com/Akurganow">GitHub</a><span class="print-only"> — https://github.com/Akurganow</span>
 - [CodePen](https://codepen.io/Akurganow)<span class="print-only"> — https://codepen.io/Akurganow</span>
 - [Talk at RIT++ 2017](https://youtu.be/PUE6Avu1Yak)<span class="print-only"> — https://youtu.be/PUE6Avu1Yak</span>
 - [Interview for Habr 2017](https://youtu.be/tmgex8T5zTA)<span class="print-only"> — https://youtu.be/tmgex8T5zTA</span>
