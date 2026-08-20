@@ -6,6 +6,7 @@
   <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="describedby" type="text/markdown" href="{{ '/llms.txt' | relative_url }}" title="llms.txt">
 
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
 
@@ -34,35 +35,42 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Alexander Kurganov",
-    "jobTitle": "Engineering Team Lead",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "RingCentral",
-      "url": "https://www.ringcentral.com"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Valencia",
-      "addressCountry": "ES"
-    },
-    "email": "mailto:me@akurganow.ru",
-    "image": "https://avatars.githubusercontent.com/Akurganow?size=460",
-    "url": "https://akurganow.github.io/",
-    "sameAs": [
-      "https://github.com/Akurganow",
-      "https://codepen.io/Akurganow"
-    ],
-    "knowsAbout": [
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Node.js",
-      "Playwright",
-      "AI agents",
-      "Engineering management"
-    ]
+    "@type": "ProfilePage",
+    "dateModified": "{{ site.time | date_to_xmlschema }}",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Alexander Kurganov",
+      "alternateName": "Akurganow",
+      "description": "Engineering Team Lead with 15+ years in web development, leading engineering teams since 2018.",
+      "jobTitle": "Engineering Team Lead",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "RingCentral",
+        "url": "https://www.ringcentral.com"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Valencia",
+        "addressCountry": "ES"
+      },
+      "email": "mailto:me@akurganow.ru",
+      "image": "https://avatars.githubusercontent.com/Akurganow?size=460",
+      "url": "https://akurganow.github.io/",
+      "sameAs": [
+        "https://github.com/Akurganow",
+        "https://codepen.io/Akurganow"
+      ],
+      "knowsLanguage": ["ru", "en"],
+      "knowsAbout": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Playwright",
+        "AI agents",
+        "Engineering management"
+      ]
+    }
   }
   </script>
 </head>

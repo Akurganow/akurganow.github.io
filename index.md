@@ -15,7 +15,7 @@ layout: default
   <dd>Russian (native), English (professional working proficiency)</dd>
 </dl>
 
-## About
+## Summary
 
 I have been building for the web since 2011 — full-time since 2013, and leading
 engineering teams since 2018. I prefer product work: the more expertise a developer has
@@ -27,16 +27,16 @@ data. I rely on automated testing focused on critical paths and the places where
 problems actually appear, rather than on TDD for its own sake.
 
 I organized the St. Petersburg frontend community spb.frontend() from its founding
-and hosted its podcast, and later co-hosted
-[Ponaehali](https://ponaehali.fireside.fm), a podcast unrelated to programming.
-Outside of work: snowboarding and go-karting.
+and hosted its podcast, and later co-hosted Ponaehali, a podcast unrelated to
+programming. Outside of work: snowboarding and go-karting.
 
 ## Skills
 
 <dl class="details">
   <dt>Leadership</dt>
-  <dd>Hiring and interviewing, mentorship and growth planning, release management,
-      planning and code review, cross-team coordination, distributed teams across time zones</dd>
+  <dd>Engineering management, hiring and interviewing, mentorship and growth planning,
+      release management, planning and code review, cross-team coordination,
+      distributed teams across time zones</dd>
   <dt>Engineering</dt>
   <dd>JavaScript, TypeScript, React, Redux, Node.js, Nest.js, RxJS, Express.js,
       Webpack, PostCSS, Gatsby.js, Cordova, WebSockets</dd>
