@@ -1,6 +1,7 @@
 ---
 title: Web Developer
 company: Freelance
+company_prefix: "—"
 dates: September 2012 — July 2013
 ---
 

@@ -8,7 +8,8 @@ A minimal [Jekyll](https://jekyllrb.com/) site — no theme, no plugins, one lay
 
 - `index.md` — the page itself: Details, About, Experience loop, Links
 - `_jobs/` — one Markdown file per job, newest last by filename (`YYYY-MM-company.md`);
-  front matter carries `title`, `company`, `company_url`, `dates`
+  front matter carries `title`, `company`, `company_url`, `dates`, and optional
+  `company_prefix` — the word before the company name in the heading (default `at`)
 - `_data/projects.yml` — the projects listed in the header
 - `_layouts/default.html` — the single layout: head, header, footer
 - `styles.css` — screen, print and dark-mode styles in one file

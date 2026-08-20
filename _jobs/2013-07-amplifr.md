@@ -1,7 +1,6 @@
 ---
 title: Frontend Developer
 company: Amplifr
-company_url: https://amplifr.com
 dates: July 2013 — July 2015
 ---
 
