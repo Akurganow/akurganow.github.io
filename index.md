@@ -26,9 +26,8 @@ Beyond prototypes and MVPs, interface decisions should be driven by sufficient, 
 data. I rely on automated testing focused on critical paths and the places where
 problems actually appear, rather than on TDD for its own sake.
 
-I organized the St. Petersburg frontend community
-[spb.frontend()](https://spb-frontend.ru/) from its founding and hosted its
-[podcast](https://spb-frontend.ru/persons/akurganow), and later co-hosted
+I organized the St. Petersburg frontend community spb.frontend() from its founding
+and hosted its podcast, and later co-hosted
 [Ponaehali](https://ponaehali.fireside.fm), a podcast unrelated to programming.
 Outside of work: snowboarding and go-karting.
 
@@ -36,7 +35,7 @@ Outside of work: snowboarding and go-karting.
 
 {% for job in site.jobs reversed %}
 <article class="job">
-  <h3>{{ job.title }} <span class="job-company">{% if job.company_url %}at <a href="{{ job.company_url }}">{{ job.company }}</a>{% else %}— {{ job.company }}{% endif %}</span></h3>
+  <h3>{{ job.title }} <span class="job-company">{% if job.company_url %}at <a href="{{ job.company_url }}">{{ job.company }}</a>{% else %}{{ job.company_prefix | default: "at" }} {{ job.company }}{% endif %}</span></h3>
   <p class="job-dates">{{ job.dates }}</p>
   {{ job.content | markdownify }}
 </article>
