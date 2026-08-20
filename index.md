@@ -31,6 +31,19 @@ and hosted its podcast, and later co-hosted
 [Ponaehali](https://ponaehali.fireside.fm), a podcast unrelated to programming.
 Outside of work: snowboarding and go-karting.
 
+## Skills
+
+<dl class="details">
+  <dt>Leadership</dt>
+  <dd>Hiring and interviewing, mentorship and growth planning, release management,
+      planning and code review, cross-team coordination, distributed teams across time zones</dd>
+  <dt>Engineering</dt>
+  <dd>JavaScript, TypeScript, React, Redux, Node.js, Nest.js, RxJS, Express.js,
+      Webpack, PostCSS, Gatsby.js, Cordova, WebSockets</dd>
+  <dt>Testing &amp; AI</dt>
+  <dd>Playwright end-to-end testing, autonomous AI agents, LLM-judge benchmarking, CI/CD</dd>
+</dl>
+
 ## Experience
 
 {% for job in site.jobs reversed %}
