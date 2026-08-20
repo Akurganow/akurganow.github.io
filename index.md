@@ -5,31 +5,24 @@ layout: default
 ## Details
 
 <dl class="details">
-  <dt>Location</dt>
-  <dd>Valencia, Spain</dd>
-  <dt>Email</dt>
-  <dd><a href="mailto:me@akurganow.ru">me@akurganow.ru</a></dd>
-  <dt>Born</dt>
-  <dd>28 February 1986</dd>
-  <dt>Languages</dt>
-  <dd>Russian (native), English (professional working proficiency)</dd>
+  {%- for item in site.data.details %}
+  <dt>{{ item.label | escape }}</dt>
+  <dd>{% if item.url %}<a href="{{ item.url }}">{{ item.value | escape }}</a>{% else %}{{ item.value | escape }}{% endif %}</dd>
+  {%- endfor %}
 </dl>
 
-## About
+## Summary
 
-I have been building for the web since 2011 — full-time since 2013, and leading
-engineering teams since 2018. I prefer product work: the more expertise a developer has
-in the product, the deeper the involvement and the better the result.
+{% include summary.md %}
 
-I consider design and engineering inseparable — code and API design are design too.
-Beyond prototypes and MVPs, interface decisions should be driven by sufficient, correct
-data. I rely on automated testing focused on critical paths and the places where
-problems actually appear, rather than on TDD for its own sake.
+## Skills
 
-I organized the St. Petersburg frontend community spb.frontend() from its founding
-and hosted its podcast, and later co-hosted
-[Ponaehali](https://ponaehali.fireside.fm), a podcast unrelated to programming.
-Outside of work: snowboarding and go-karting.
+<dl class="details">
+  {%- for skill in site.data.skills %}
+  <dt>{{ skill.group | escape }}</dt>
+  <dd>{{ skill.items | escape }}</dd>
+  {%- endfor %}
+</dl>
 
 ## Experience
 
@@ -43,7 +36,8 @@ Outside of work: snowboarding and go-karting.
 
 ## Links
 
-- [GitHub](https://github.com/Akurganow)<span class="print-only"> — https://github.com/Akurganow</span>
+- <a rel="me" href="https://www.linkedin.com/in/akurganow">LinkedIn</a><span class="print-only"> — https://www.linkedin.com/in/akurganow</span>
+- <a rel="me" href="https://github.com/Akurganow">GitHub</a><span class="print-only"> — https://github.com/Akurganow</span>
 - [CodePen](https://codepen.io/Akurganow)<span class="print-only"> — https://codepen.io/Akurganow</span>
 - [Talk at RIT++ 2017](https://youtu.be/PUE6Avu1Yak)<span class="print-only"> — https://youtu.be/PUE6Avu1Yak</span>
 - [Interview for Habr 2017](https://youtu.be/tmgex8T5zTA)<span class="print-only"> — https://youtu.be/tmgex8T5zTA</span>

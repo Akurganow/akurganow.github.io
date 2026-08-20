@@ -1,0 +1,39 @@
+---
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+- [CV](https://akurganow.github.io/): the full CV as a single page
+
+## Contact
+{% for item in site.data.details %}
+- {{ item.label }}: {{ item.value }}
+{%- endfor %}
+
+## Summary
+
+{% include summary.md %}
+
+## Skills
+{% for skill in site.data.skills %}
+- **{{ skill.group }}**: {{ skill.items }}
+{%- endfor %}
+
+## Work Experience
+{% for job in site.jobs reversed %}
+### {{ job.title }} — {{ job.company }} ({{ job.dates }})
+
+{{ job.content | markdownify | strip_html | strip }}
+{% endfor %}
+
+## Projects
+{% for project in site.data.projects %}
+- [{{ project.name }}]({{ project.url }}): {{ project.description }}
+{%- endfor %}
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/akurganow): professional profile
+- [GitHub](https://github.com/Akurganow): open-source projects and activity
+- [CodePen](https://codepen.io/Akurganow): frontend experiments

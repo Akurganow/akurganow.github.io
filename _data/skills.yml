@@ -1,0 +1,11 @@
+- group: Leadership
+  items: Engineering management, hiring and interviewing, mentorship and growth planning,
+    release management, planning and code review, cross-team coordination,
+    distributed teams across time zones
+
+- group: Engineering
+  items: JavaScript, TypeScript, React, Redux, Node.js, Nest.js, RxJS, Express.js,
+    Webpack, PostCSS, Gatsby.js, Cordova, WebSockets
+
+- group: Testing & AI
+  items: Playwright end-to-end testing, autonomous AI agents, LLM-judge benchmarking, CI/CD

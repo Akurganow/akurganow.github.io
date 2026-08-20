@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="describedby" type="text/markdown" href="{{ '/llms.txt' | relative_url }}" title="llms.txt">
 
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
 
@@ -16,13 +18,62 @@
   <meta name="theme-color" content="#4600ff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#16161e" media="(prefers-color-scheme: dark)">
 
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Alexander Kurganov">
+  <meta property="og:locale" content="en_US">
   <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="Engineering Team Lead">
+  <meta property="og:description" content="{{ site.description }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:image" content="https://avatars.githubusercontent.com/Akurganow?size=460">
+  <meta property="og:image:width" content="460">
+  <meta property="og:image:height" content="460">
+  <meta property="og:image:alt" content="Photo of Alexander Kurganov">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@akurganow">
+  <meta name="twitter:creator" content="@akurganow">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "dateModified": "{{ site.last_modified | date_to_xmlschema }}",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Alexander Kurganov",
+      "alternateName": "Akurganow",
+      "description": "Engineering Team Lead with 15+ years in web development, leading engineering teams since 2018.",
+      "jobTitle": "Engineering Team Lead",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "RingCentral",
+        "url": "https://www.ringcentral.com"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Valencia",
+        "addressCountry": "ES"
+      },
+      "email": "mailto:me@akurganow.ru",
+      "image": "https://avatars.githubusercontent.com/Akurganow?size=460",
+      "url": "https://akurganow.github.io/",
+      "sameAs": [
+        "https://www.linkedin.com/in/akurganow",
+        "https://github.com/Akurganow",
+        "https://codepen.io/Akurganow"
+      ],
+      "knowsLanguage": ["ru", "en"],
+      "knowsAbout": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Playwright",
+        "AI agents",
+        "Engineering management"
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
   <header class="header">
@@ -36,10 +87,12 @@
     <div>
       <h1 class="header-name">Alexander Kurganov</h1>
       <p class="header-title">Engineering Team Lead</p>
+      <p class="header-summary">15+ years building for the web · leading engineering teams since 2018</p>
       <p class="header-contacts">
         Valencia, Spain ·
         <a href="mailto:me@akurganow.ru">me@akurganow.ru</a> ·
-        <a href="https://github.com/Akurganow">github.com/Akurganow</a>
+        <a rel="me" href="https://www.linkedin.com/in/akurganow">linkedin.com/in/akurganow</a> ·
+        <a rel="me" href="https://github.com/Akurganow">github.com/Akurganow</a>
       </p>
     </div>
     <ul class="projects">

@@ -103,6 +103,12 @@ a {
   color: var(--color-muted);
 }
 
+.header-summary {
+  margin: 0.25rem 0 0;
+  font-size: 0.9375rem;
+  color: var(--color-muted);
+}
+
 .header-contacts {
   margin: 0.5rem 0 0;
   color: var(--color-muted);
