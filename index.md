@@ -5,14 +5,10 @@ layout: default
 ## Details
 
 <dl class="details">
-  <dt>Location</dt>
-  <dd>Valencia, Spain</dd>
-  <dt>Email</dt>
-  <dd><a href="mailto:me@akurganow.ru">me@akurganow.ru</a></dd>
-  <dt>Born</dt>
-  <dd>28 February 1986</dd>
-  <dt>Languages</dt>
-  <dd>Russian (native), English (professional working proficiency)</dd>
+  {%- for item in site.data.details %}
+  <dt>{{ item.label | escape }}</dt>
+  <dd>{% if item.url %}<a href="{{ item.url }}">{{ item.value | escape }}</a>{% else %}{{ item.value | escape }}{% endif %}</dd>
+  {%- endfor %}
 </dl>
 
 ## Summary

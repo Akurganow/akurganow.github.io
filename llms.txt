@@ -7,10 +7,9 @@
 - [CV](https://akurganow.github.io/): the full CV as a single page
 
 ## Contact
-
-- Location: Valencia, Spain
-- Email: me@akurganow.ru
-- Languages: Russian (native), English (professional working proficiency)
+{% for item in site.data.details %}
+- {{ item.label }}: {{ item.value }}
+{%- endfor %}
 
 ## Summary
 
