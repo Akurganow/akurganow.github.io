@@ -1,19 +1,2 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-*.lock
-
-# Dependency directories
-/node_modules
-
-# Optional npm cache directory
-.npm
-.cache
-.parcel-cache
-
-# Prod Bundle
-/dist
-
-.vscode
-.idea
+.DS_Store
+Thumbs.db
