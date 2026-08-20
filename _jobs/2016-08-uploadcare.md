@@ -5,7 +5,7 @@ company_url: https://uploadcare.com
 dates: August 2016 — February 2018
 ---
 
-The company is engaged in file storage, processing and distribution. I was involved in
+The company was engaged in file storage, processing and distribution. I was involved in
 designing and developing a new company website. The old one was a Django monolith
 heavily tied to the backend — frontend fixes couldn't be released without a backend
 release. I developed the new frontend with a new design: it ran on React and talked to

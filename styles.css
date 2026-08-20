@@ -216,7 +216,6 @@ a {
   h4,
   .job-dates {
     break-after: avoid-page;
-    page-break-after: avoid;
   }
 
   p,

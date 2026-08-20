@@ -30,7 +30,7 @@ I organized the St. Petersburg frontend community
 [spb.frontend()](https://spb-frontend.ru/) from its founding and hosted its
 [podcast](https://spb-frontend.ru/persons/akurganow), and later co-hosted
 [Ponaehali](https://ponaehali.fireside.fm), a podcast unrelated to programming.
-Outside of work I snowboard and go karting.
+Outside of work: snowboarding and go-karting.
 
 ## Experience
 

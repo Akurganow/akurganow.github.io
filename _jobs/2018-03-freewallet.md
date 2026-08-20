@@ -5,7 +5,7 @@ company_url: https://freewallet.org
 dates: March 2018 — February 2020
 ---
 
-The company develops its own solutions for the cryptocurrency market. I joined one of
+The company developed its own solutions for the cryptocurrency market. I joined one of
 its long-running projects after launch and eventually led two teams — mobile and web. I
 prepared releases, decomposed and distributed tasks among developers, and wrote code
 myself, stepping into other developers' tasks when something didn't go according to
