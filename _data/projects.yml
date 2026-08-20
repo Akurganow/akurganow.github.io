@@ -1,0 +1,11 @@
+- name: Slovo
+  url: https://github.com/Akurganow/slovo
+  description: Private on-device push-to-talk dictation app for macOS
+
+- name: use-persisted-state
+  url: https://github.com/Akurganow/use-persisted-state
+  description: React useState hook with persistence in any storage
+
+- name: Jared
+  url: https://github.com/Akurganow/jared
+  description: Browser extension for a better way to work with browser history

@@ -1,0 +1,9 @@
+title: Alexander Kurganov — Curriculum Vitae
+description: Alexander Kurganov — Engineering Team Lead. Curriculum Vitae.
+url: "https://akurganow.github.io"
+
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+
+collections:
+  jobs:
+    output: false
