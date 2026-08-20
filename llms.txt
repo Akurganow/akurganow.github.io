@@ -1,17 +1,37 @@
-# Alexander Kurganov — Engineering Team Lead CV
+---
+---
+# {{ site.title }}
 
-> Personal CV of Alexander Kurganov: Engineering Team Lead at RingCentral (Valencia, Spain),
-> 15+ years building for the web, leading engineering teams since 2018. Current focus: a harness
-> for autonomous AI agents that write Playwright end-to-end tests, reproduce and fix bugs,
-> measured by an LLM-judge benchmark over a corpus of real, human-closed tickets.
+> {{ site.description }}
 
-- [CV](https://akurganow.github.io/): the full CV — summary, skills, work experience and links, single page
+- [CV](https://akurganow.github.io/): the full CV as a single page
+
+## Contact
+
+- Location: Valencia, Spain
+- Email: me@akurganow.ru
+- Languages: Russian (native), English (professional working proficiency)
+
+## Summary
+
+{% include summary.md %}
+
+## Skills
+{% for skill in site.data.skills %}
+- **{{ skill.group }}**: {{ skill.items }}
+{%- endfor %}
+
+## Work Experience
+{% for job in site.jobs reversed %}
+### {{ job.title }} — {{ job.company }} ({{ job.dates }})
+
+{{ job.content | markdownify | strip_html | strip }}
+{% endfor %}
 
 ## Projects
-
-- [Slovo](https://github.com/Akurganow/slovo): private on-device push-to-talk dictation app for macOS
-- [use-persisted-state](https://github.com/Akurganow/use-persisted-state): React useState hook with persistence in any storage
-- [Jared](https://github.com/Akurganow/jared): browser extension for a better way to work with browser history
+{% for project in site.data.projects %}
+- [{{ project.name }}]({{ project.url }}): {{ project.description }}
+{%- endfor %}
 
 ## Profiles
 
