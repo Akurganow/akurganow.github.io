@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#4600ff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16161e" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="Engineering Team Lead">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/Akurganow?size=460">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@akurganow">
+</head>
+<body>
+  <header class="header">
+    <img
+      class="header-photo"
+      alt="Alexander Kurganov's photo"
+      width="128"
+      height="128"
+      src="https://avatars.githubusercontent.com/Akurganow?size=128"
+      srcset="https://avatars.githubusercontent.com/Akurganow?size=256 2x">
+    <div>
+      <h1 class="header-name">Alexander Kurganov</h1>
+      <p class="header-title">Engineering Team Lead</p>
+      <p class="header-contacts">
+        Valencia, Spain ·
+        <a href="mailto:me@akurganow.ru">me@akurganow.ru</a> ·
+        <a href="https://github.com/Akurganow">github.com/Akurganow</a>
+      </p>
+    </div>
+    <ul class="projects">
+      {%- for project in site.data.projects %}
+      <li>
+        <a href="{{ project.url }}">{{ project.name }}</a> — {{ project.description }}<span class="print-only"> ({{ project.url }})</span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </header>
+
+  <main>
+{{ content }}
+  </main>
+
+  <footer class="footer">
+    <span>Alexander Kurganov</span>
+    <a href="https://github.com/Akurganow/akurganow.github.io">This document lives on GitHub</a>
+  </footer>
+</body>
+</html>

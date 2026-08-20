@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light dark;
   --color-text: #1a1a24;
   --color-muted: #5c5c6e;
   --color-accent: #4600ff;
@@ -107,6 +108,15 @@ a {
   color: var(--color-muted);
 }
 
+.projects {
+  width: 100%;
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  font-size: 0.9375rem;
+  color: var(--color-muted);
+}
+
 /* Details */
 
 .details {
@@ -182,14 +192,18 @@ a {
     --color-border: #999999;
   }
 
-  body {
-    max-width: none;
-    padding: 0;
+  html {
     font-size: 11pt;
   }
 
+  body {
+    max-width: none;
+    padding: 0;
+  }
+
   a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5pt;
   }
 
   .header-photo {
@@ -197,8 +211,18 @@ a {
     height: 6rem;
   }
 
-  .job {
-    break-inside: avoid-page;
+  h2,
+  h3,
+  h4,
+  .job-dates {
+    break-after: avoid-page;
+    page-break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
   }
 
   .print-only {
